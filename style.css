@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+
+    left: calc(50% - 640px);
+    background: #d9d7eb11;
+  
+}
+
+.wrapper {
+    height: 100%;
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    /* border: red solid 2px; */
+
+}
+
+header {
+    /* position: absolute; */
+    top: 60px;
+    left: 46px;
+    /* z-index: 2; */
+    width: 100%;
+    height: 60px;
+    background: #1a06f5e0;
+}
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    /* border: red solid 2px; */
+    /* background: #1a06f5e0; */
+    
+}
+
+.header__navigation {
+    width: 70%;
+}
+
+.navigation {
+    /* border: red solid 2px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+   
+}
+
+.navigation__link {
+    list-style-type: none;
+    
+}
+a {
+    color: aliceblue;
+}
+
+.promo__wrapper {
+    /* border: red solid 2px; */
+    /* width: 100%; */
+    height: 600px;
+    /* background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #f9f9fc 0%, #dadcdf 100%); */
+}
+/* .promo__wrapper {
+
+} */
+.promo__title {
+    position: absolute;
+    width: 400px;
+    /* height: 90px; */
+    left: 33%;
+    top: 40px;
+    text-align: center;
+    /* border: red solid 2px; */
+}
+
+.promo__content {
+    position: absolute;
+    display: flex;
+    justify-content: space-around; 
+    top: 130px;
+    /* border: red solid 2px; */
+    /* left: 33%; */
+    width: 100%;
+}
+
+.promo__text {
+    /* border: red solid 2px; */
+
+}
+
+.promo__image {
+    text-align: center;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    /* transition: width .4s; */
+    height: 100%;
+    /* border: red solid 2px; */
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+.promo__button {
+    position: absolute;
+    width: 207px;
+    height: 52px;
+    top: 520px;
+    left: 40%;
+    background: #0537db;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+    color: white;
+}
+
+.promo__button:hover {
+    cursor: pointer;
+}
+
+.certificates {
+    width: 100%;
+    height: 600px;
+}
+
+.certificates__title {
+    position: absolute;
+    width: 400px;
+    /* height: 90px; */
+    left: 33%;
+    top: 40px;
+    text-align: center;
+    /* border: red solid 2px;  */
+}
+
+.certificates__images {
+    position: absolute;
+    display: flex;
+    /* justify-content: space-around;  */
+    top: 130px;
+    left: 5%;
+    width: 90%;
+    height: 70%;
+    /* border: red solid 2px;  */
+}
+
+.certificate {
+  /* border: red solid 2px;  */
+  padding: 5px;
+  margin: 5px;
+  width: 90%;
+  height: 100%;
+}
+
+.reviews__wrapper {
+    height: 608px;
+    /* display: block; */
+    /* background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5a5d7f4a 0%, #313c4b 100%); */
+}
+.reviews__title {
+    position: absolute;
+    width: 400px;
+    /* height: 90px; */
+    left: 33%;
+    top: 40px;
+    text-align: center;
+    /* border: red solid 2px;  */
+   /* color: aliceblue; */
+}
+.reviews__field {
+    position: absolute;
+    top: 100px;
+    /* margin-top: 10px; */
+    /* border: red solid 2px;  */
+   
+}
+.review {
+    margin-top: 10px;
+    border: rgba(170, 141, 224, 0.284) solid 2px; 
+    border-radius: 5px;
+    
+}
+.footer {
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #2603eee8 0%, #e6e6ea4d 100%);
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 150px;
+   
+}
+#contacts {
+    /* border: red solid 2px;  */
+    width: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.tel__mailo {
+    margin-top: 20px;
+}
+.img-mail {
+    width: 30px;
+    height: 20px;
+}
+.img-phone {
+    width: 30px;
+    height: 30px;
+}
+.contacts-mail,
+.contacts-phone {
+    font-size: 25px;
+}
+.footer__logo-line {
+    margin-top: 10px;
+    margin-right: 20px;
+}
