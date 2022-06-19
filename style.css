@@ -7,7 +7,7 @@
 body {
 
     left: calc(50% - 640px);
-    background: #d9d7eb11;
+    /* background: #d9d7eb11; */
   
 }
 
@@ -22,10 +22,10 @@ body {
 
 header {
     /* position: absolute; */
-    top: 60px;
+    /* top: 60px; */
     /* left: 46px; */
     /* z-index: 2; */
-    width: 100%;
+    /* width: 100%; */
     height: 60px;
     background: #1a06f5e0;
 }
@@ -59,6 +59,10 @@ header {
 a {
     color: aliceblue;
 }
+/* .promo {
+    background: url(./img/depositphotos_5419181-stock-photo-map-of-austria-in-austrian.jpg) no-repeat 30px 20px;;
+    
+} */
 
 .promo__wrapper {
     /* border: red solid 2px; */
@@ -69,13 +73,23 @@ a {
 /* .promo__wrapper {
 
 } */
-.promo__title {
-    position: absolute;
-    width: 400px;
-    /* height: 90px; */
-    left: 33%;
-    top: 40px;
+.title__image {
+    border: red solid 2px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    height: 130px;
+}
+.promo__title {
+    width: 400px;
+    /* left: 33%; */
+    padding-top: 30px;
+    /* top: 40px; */
+    /* text-align: center; */
+    /* border: red solid 2px; */
+}
+.image__ausstralian {
+    width: 15%;
     /* border: red solid 2px; */
 }
 
@@ -89,12 +103,13 @@ a {
     width: 100%;
 }
 
-/* .promo__text {
+.promo__text {
     border: red solid 2px;
 
-} */
+}
 
 .promo__image {
+    top: 20px;
     text-align: center;
     width: 50%;
     position: relative;
@@ -105,8 +120,9 @@ a {
 }
 
 .image {
-    width: 350px;
-    height: 350px;
+    width: 60%;
+    border: red solid 2px;
+    /* height: 350px; */
 }
 
 .promo__button {
@@ -138,29 +154,29 @@ a {
     position: absolute;
     width: 400px;
     /* height: 90px; */
-    left: 33%;
+    left: 30%;
     top: 40px;
     text-align: center;
-    /* border: red solid 2px;  */
+    border: red solid 2px; 
 }
 
 .certificates__images {
     position: absolute;
-    display: flex;
+    display: inline-block;
     /* justify-content: space-around;  */
     top: 130px;
     left: 5%;
     width: 90%;
     height: 70%;
-    /* border: red solid 2px;  */
+    border: red solid 2px; 
 }
 
 .certificate {
-  /* border: red solid 2px;  */
-  padding: 5px;
-  margin: 5px;
-  width: 90%;
-  height: 100%;
+  border: red solid 2px; 
+  padding: 2px;
+  margin: 2px 3% 3% 3%;
+  width: 25%;
+  /* height: 100%; */
 }
 
 .reviews__wrapper {
@@ -183,7 +199,7 @@ a {
 
 .revievs__text {
     position: absolute;
-    width: 1000px;
+    width: 80%;
     height: 100px;
     top: 430px;
     left: 10%;
@@ -205,9 +221,10 @@ a {
 }
 
 .review {
-    margin-top: 10px;
+    margin: 1% auto;
     border: rgba(170, 141, 224, 0.284) solid 2px; 
     border-radius: 5px;
+    width: 90%;
     
 }
 
@@ -255,4 +272,45 @@ a {
     margin-right: 20px;
 }
 
-@media (max-width: 1080px)
+@media (max-width: 1279px) {
+    body {
+
+        left: calc(50% -430px);
+        background: #d9d7eb11;
+      
+    }  
+    .wrapper {
+        width: 100%;     
+    
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+
+        left: calc(50% -430px);
+        background: #d9d7eb11;
+      
+    }  
+    .wrapper {
+        width: 100%;     
+    
+    }
+    .promo__wrapper {
+       
+        height: 800px;
+      
+    }
+    .promo__content {
+     
+        flex-direction: column;
+        align-items: center;
+       
+        height: 500px;
+       
+    }
+    .promo__button {
+        top: 720px;
+    }
+      
+}
