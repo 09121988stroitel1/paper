@@ -65,7 +65,7 @@ a {
 } */
 
 .promo__wrapper {
-    /* border: red solid 2px; */
+    border: red solid 2px;
     /* width: 100%; */
     height: 600px;
     /* background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #f9f9fc 0%, #dadcdf 100%); */
@@ -86,7 +86,7 @@ a {
     padding-top: 30px;
     /* top: 40px; */
     /* text-align: center; */
-    /* border: red solid 2px; */
+    border: red solid 2px;
 }
 .image__ausstralian {
     width: 15%;
@@ -154,7 +154,7 @@ a {
     position: absolute;
     width: 400px;
     /* height: 90px; */
-    left: 30%;
+    left: 33%;
     top: 40px;
     text-align: center;
     border: red solid 2px; 
@@ -193,7 +193,7 @@ a {
     left: 33%;
     top: 40px;
     text-align: center;
-    /* border: red solid 2px;  */
+    border: red solid 2px; 
    /* color: aliceblue; */
 }
 
@@ -216,7 +216,7 @@ a {
     position: absolute;
     top: 100px;
     /* margin-top: 10px; */
-    /* border: red solid 2px;  */
+    border: red solid 2px; 
    
 }
 
@@ -311,6 +311,16 @@ a {
     }
     .promo__button {
         top: 720px;
+    }
+    .certificates__title {
+      
+        left: 15%;
+      
+    }
+    .reviews__title {
+        
+        left: 15%;
+     
     }
       
 }
