@@ -1,5 +1,5 @@
 //Script popap 
-const button = document.querySelector('.js-open-modal')
+const button = document.querySelector('.promo__button')
 const modalElem = document.querySelector('.modal');
 const overlay = document.querySelector('.js-overlay-modal');
 const closeButton = document.querySelector('.modal__cross');
