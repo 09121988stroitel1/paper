@@ -217,6 +217,7 @@ a {
     top: 100px;
     /* margin-top: 10px; */
     border: red solid 2px; 
+    height: 200px;
    
 }
 
@@ -226,6 +227,12 @@ a {
     border-radius: 5px;
     width: 90%;
     
+}
+.reviewNew {
+    margin: 1% auto;
+    border: rgba(170, 141, 224, 0.284) solid 2px; 
+    border-radius: 5px;
+    width: 90%;
 }
 
 .footer {
@@ -250,6 +257,9 @@ a {
 
 .tel__mailo {
     margin-top: 20px;
+    border: red solid 2px;
+    /* width: 90%;
+    display: flex; */
 }
 
 .img-mail {
@@ -337,7 +347,7 @@ a {
    position: absolute;
    top: 20px;
    right: 20px;
-   fill: #444;
+   /* fill: #444; */
    cursor: pointer;
 }
 .button__to-send {
@@ -353,7 +363,7 @@ a {
 
 /* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
 
-a {
+/* a {
    padding: 20px;
    display: inline-block;
    text-decoration: none;
@@ -361,7 +371,7 @@ a {
    margin: 10px;
    color: #fff;
    border-radius: 3px;
-}
+} */
 
 
 /* Coments */
