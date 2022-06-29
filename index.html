@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -42,8 +44,6 @@
 
                     <h4>Цена: 19BYN</h4>
 
-                    <!-- <img class="image_one" src="./img/paper2.jfif">    
-                    <img class="image_one" src="./img/paper3.jfif">                  -->
                 </div>
                 <p class="promo__text">Бумага для копирования Symbio A4 80 г/м2 - 500 листов <br>
                     Symbio Copy — бумага для лазерных и струйных принтеров, копировальных аппаратов и факсов. <br>
@@ -75,7 +75,6 @@
             </div>
         </div>
     </section>
-    <!-- <section class="rev"></section> -->
     <section class="reviews">
         <div class="wrapper reviews__wrapper">
             <h1 class="reviews__title">Отзывы клиентов</h1>
@@ -123,22 +122,23 @@
 
     <!-- popap   -->
 
-    <!--<a href="#" class="js-open-modal" data-modal="1">Открыть окно 1</a>-->
     <div class="modal" data-modal="1">
         <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
                 d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z" />
         </svg>
-        <div class="wrapp__modal">
+        <!-- <div class="wrapp__modal"> -->
+            <form class="wrapp__modal" action="mail.php" method="POST">
             <h3>Быстро оставить заявку</h3>
             <p class="modal__title">Введите номер телефона</p>
-            <input type="text" name="lastname" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
+            <input type="text" name="user_phone" placeholder="+7 ( _ _ _) _ _ - _ _ - _ _">
             <p class="modal__title">Введите e-mail</p>
-            <input type="email" name="login" placeholder="mail@example.com">
+            <input type="email" name="user_email" placeholder="mail@example.com">
             <p class="modal__title">Выберите желаемое количество</p>
-            <input type="number" id="tentacles" name="tentacles" min="1" max="100">
-            <input class="button__to-send" type="button" value="Отправить заявку">
-        </div>
+            <input type="number" id="tentacles" name="quantity" min="1" max="1000">
+            <input class="button__to-send" type="submit" value="Отправить заявку">
+        </form>
+        <!-- </div> -->
     </div>
 
     <div class="overlay js-overlay-modal"></div>
